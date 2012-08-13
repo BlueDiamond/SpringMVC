@@ -1,14 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.bd.spring.mvc</groupId>
-  <artifactId>spring-mvc</artifactId>
-  <packaging>war</packaging>
-  <version>1.0</version>
-  <name>spring-mvc</name>
-  <url>http://maven.apache.org</url>
-  
-  <properties>
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.bd.spring.mvc</groupId>
+	<artifactId>spring-mvc</artifactId>
+	<packaging>war</packaging>
+	<version>1.0</version>
+	<name>spring-mvc</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
 		<java.version>1.7</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<powermock.version>1.4.12</powermock.version>
@@ -17,9 +17,9 @@
 		<spring.version>3.1.1.RELEASE</spring.version>
 
 	</properties>
-	
-	
- 
+
+
+
 	<dependencies>
 
 		<dependency>
@@ -30,12 +30,12 @@
 		</dependency>
 
 		<dependency>
-	<groupId>commons-logging</groupId>
-	<artifactId>commons-logging</artifactId>
-	<version>1.1.1</version>
-</dependency>
-            
-			
+			<groupId>commons-logging</groupId>
+			<artifactId>commons-logging</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+
+
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>jstl</artifactId>
@@ -145,27 +145,27 @@
 			<artifactId>spring-expression</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
-		
-<dependency>
+
+		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-web</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
-		
-		
+
+
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-test</artifactId>
 			<version>${spring.version}</version>
 			<scope>test</scope>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.mockito</groupId>
 			<artifactId>mockito-all</artifactId>
@@ -196,7 +196,7 @@
 			<version>3.1</version>
 			<scope>test</scope>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-annotations</artifactId>
@@ -215,10 +215,15 @@
 			<version>2.0.4</version>
 		</dependency>
 
+		<dependency>
+			<groupId>org.mongodb</groupId>
+			<artifactId>mongo-java-driver</artifactId>
+			<version>2.8.0</version>
+		</dependency>
 
 	</dependencies>
 
- 
+
 	<repositories>
 		<repository>
 			<id>java.net.m2</id>
@@ -228,7 +233,7 @@
 	</repositories>
 
 
-	
+
 	<build>
 		<finalName>spring-mvc</finalName>
 
@@ -266,6 +271,6 @@
 		</plugins>
 
 	</build>
-	
-	
+
+
 </project>
