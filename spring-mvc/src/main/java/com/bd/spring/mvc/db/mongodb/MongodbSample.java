@@ -1,4 +1,4 @@
-package com.bd.spring.mvc.db;
+package com.bd.spring.mvc.db.mongodb;
 
 import java.net.UnknownHostException;
 import java.util.Set;
