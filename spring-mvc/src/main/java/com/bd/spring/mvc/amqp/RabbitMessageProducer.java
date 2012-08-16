@@ -13,7 +13,7 @@ public class RabbitMessageProducer {
 
 	private static Logger logger = LoggerFactory.getLogger(RabbitMessageProducer.class);
 
-	private final static String QUEUE_NAME = "comcast";
+	private final static String QUEUE_NAME = "simple_queue";
 
 	public static void publishToRabbitMQ() throws IOException {
 		// get mq connection
