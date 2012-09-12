@@ -3,6 +3,7 @@
 .classpath
 .project
 .metadata
+.springBeans
 bin
 target
 
