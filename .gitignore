@@ -6,6 +6,7 @@
 .springBeans
 bin
 target
+.DS_Store
 
 # Package Files #
 *.jar
