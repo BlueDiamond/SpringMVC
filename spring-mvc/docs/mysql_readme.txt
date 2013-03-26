@@ -20,3 +20,4 @@ mysqladmin -p shutdown
 to update root user password, after logging in as palani:
 UPDATE mysql.user SET Password=PASSWORD('admin123') WHERE User='root';
 ---
+
