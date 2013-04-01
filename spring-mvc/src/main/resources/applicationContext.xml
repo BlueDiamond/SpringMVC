@@ -17,9 +17,7 @@
 <!-- JSR-303 support will be detected on classpath and enabled automatically -->
 <mvc:annotation-driven/>
 
-<context:component-scan base-package="com.bd.spring.mvc.controller" />
-
-<bean id="loginService" class="com.bd.spring.mvc.service.LoginService"/>
+<context:component-scan base-package="com.bd.spring.mvc" />
 
 
 </beans>
