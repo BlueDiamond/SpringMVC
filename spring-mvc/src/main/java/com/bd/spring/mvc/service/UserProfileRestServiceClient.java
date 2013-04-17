@@ -25,8 +25,11 @@ public class UserProfileRestServiceClient {
 		String output = null;
 		try {
 
-			HttpGet httpGetRequest = new HttpGet("http://localhost:9090/spring-rest-service/rest/userprofiles");
-
+//			HttpGet httpGetRequest = new HttpGet("http://localhost:9090/spring-rest-service/rest/userprofiles");
+//			HttpGet httpGetRequest = new HttpGet("http://localhost:2020/mule-esb/rest/userprofiles");
+			HttpGet httpGetRequest = new HttpGet("http://localhost:2021/mule-esb/rest/userprofiles");
+			
+			
 			httpGetRequest.addHeader("accept", "application/json");
 
 			HttpResponse response = httpClient.execute(httpGetRequest);
