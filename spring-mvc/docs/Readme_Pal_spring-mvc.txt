@@ -2,7 +2,19 @@
 
 -------------------------------------------------------------------------------------------------------------------------
 spring mvc - controller welcome URL:
+
 http://localhost:8080/spring-mvc/welcome
+
+DB, esb, spring-rest-service and spring-mvc should be deployed and running---
+http://localhost:8080/spring-mvc/welcome
+
+http://localhost:8080/spring-mvc/welcome/showUserProfileForm
+
+http://localhost:8080/spring-mvc/welcome/addUserProfile
+
+
+
+
 -------------------------------------------------------------------------------------------------------------------------
 
 -------------------------------------------------------------------------------------------------------------------------

@@ -46,6 +46,7 @@ public class User_ProfileEntry {
 		return Name;
 	}
 
+	@JsonProperty("Name")
 	public void setName(String name) {
 		Name = name;
 	}
@@ -54,6 +55,7 @@ public class User_ProfileEntry {
 		return Created_TS;
 	}
 
+	@JsonProperty("Created_TS")
 	public void setCreated_TS(String created_TS) {
 		Created_TS = created_TS;
 	}
@@ -62,6 +64,7 @@ public class User_ProfileEntry {
 		return Relationship_Status;
 	}
 
+	@JsonProperty("Relationship_Status")
 	public void setRelationship_Status(String relationship_Status) {
 		Relationship_Status = relationship_Status;
 	}
@@ -70,6 +73,7 @@ public class User_ProfileEntry {
 		return Lives_in;
 	}
 
+	@JsonProperty("Lives_in")
 	public void setLives_in(String lives_in) {
 		Lives_in = lives_in;
 	}
@@ -78,6 +82,7 @@ public class User_ProfileEntry {
 		return Email_ID;
 	}
 
+	@JsonProperty("Email_ID")
 	public void setEmail_ID(String email_ID) {
 		Email_ID = email_ID;
 	}
@@ -86,6 +91,7 @@ public class User_ProfileEntry {
 		return Profile_ID;
 	}
 
+	@JsonProperty("Profile_ID")
 	public void setProfile_ID(Integer profile_ID) {
 		Profile_ID = profile_ID;
 	}
@@ -94,6 +100,7 @@ public class User_ProfileEntry {
 		return Sex;
 	}
 
+	@JsonProperty("Sex")
 	public void setSex(String sex) {
 		Sex = sex;
 	}
@@ -102,6 +109,7 @@ public class User_ProfileEntry {
 		return Languages;
 	}
 
+	@JsonProperty("Languages")
 	public void setLanguages(String languages) {
 		Languages = languages;
 	}
